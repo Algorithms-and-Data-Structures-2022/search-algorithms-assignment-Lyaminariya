@@ -12,7 +12,7 @@ namespace assignment {
       if (curr_sum == sum){
         return std::make_pair(l,r);
       }
-      if (curr_sum<sum){
+      if (curr_sum < sum){
         l += 1;
       }
       else{
