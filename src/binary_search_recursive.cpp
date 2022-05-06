@@ -34,9 +34,9 @@ namespace assignment {
       return midl;
     }
     if (arr[midl] < search_elem){
-      return search(arr, search_elem, midl + 1, start);
+      return search(arr, search_elem, midl + 1, stop);
     }
-    return search(arr, search_elem, stop, midl - 1);
+    return search(arr, search_elem, start, midl - 1);
   }
 
 }  // namespace assignment
